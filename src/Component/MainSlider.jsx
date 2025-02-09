@@ -91,7 +91,7 @@ const MainSlider = () => {
                                                 stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                           </svg>
                                        </span>
-                                       <i class="tp-btn-circle-dot"></i>
+                                       {/* <i class="tp-btn-circle-dot"></i> */}
                                     </a>
                                  </div>
                               </div>

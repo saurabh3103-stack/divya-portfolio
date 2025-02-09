@@ -70,7 +70,7 @@ const LatestProject = () => {
                                        </svg>
                                     </span>
                                  </span>
-                                 <i class="tp-btn-circle-dot"></i>
+                                 {/* <i class="tp-btn-circle-dot"></i> */}
                               </a>
                            </div>
 

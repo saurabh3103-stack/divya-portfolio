@@ -1,182 +1,125 @@
-import React  from "react";
+import React from "react";
+// import "../src/assets/css/style.css"; // Ensure correct CSS import if needed
 
 const Service = () => {
-    return(
-        <>
-              <section class="tp-services-area tp-sv tp-services-bg-text-animation fix">
-               <div class="container container-large">
-                  <div class="tp-services-inner pb-195 p-relative z-index-1">
+  return (
+    <>
+      <section className="tp-services-area tp-sv tp-services-bg-text-animation fix">
+        <div className="container container-large">
+          <div className="tp-services-inner pb-195 p-relative z-index-1">
+            <span className="tp-services-inner-border tp-vertical-line transition-3"></span>
+            <span className="tp-services-inner-border right tp-vertical-line transition-3"></span>
 
-                     <span class="tp-services-inner-border tp-vertical-line transition-3"></span>
-                     <span class="tp-services-inner-border right tp-vertical-line transition-3"></span>
-
-                     <div class="tp-services-bottom-text tp-services-bg-text ">
-                        <p>Services</p>
-                     </div>
-                     <div class="row gx-0">
-                        <div class="col-xl-6 col-lg-7">
-                           <div class="tp-services-wrapper tp-services-capsule-wrapper p-relative  pt-100 pr-70"
-                              data-tp-throwable-scene="true">
-                              <div class="tp-section-title-wrapper tp_text_anim mb-170">
-                                 <div class="tp-section-title-inner p-relative">
-                                    <span class="tp-section-subtitle">Services</span>
-                                    <h3 class="tp-section-title tp_title_anim">Solution <br/> we provide.</h3>
-                                 </div>
-                                 <p>The combination of my passion for design, code & interaction web design world.</p>
-                              </div>
-                              <div class="tp-services-capsule-item-wrapper">
-                                 <p data-tp-throwable-el="">
-                                    <span class="tp-services-capsule-item" data-bg-color="#00CC97">Frontend</span>
-                                 </p>
-                                 <p data-tp-throwable-el="">
-                                    <span class="tp-services-capsule-item" data-bg-color="#FF759C">Phototyping</span>
-                                 </p>
-                                 <p data-tp-throwable-el="">
-                                    <span class="tp-services-capsule-item" data-bg-color="#FFDB59"
-                                       data-text-color="#121212">Design solutions</span>
-                                 </p>
-                                 <p data-tp-throwable-el="">
-                                    <span class="tp-services-capsule-item" data-bg-color="#FFDB59"
-                                       data-text-color="#121212">Consulting</span>
-                                 </p>
-                                 <p data-tp-throwable-el="">
-                                    <span class="tp-services-capsule-item" data-bg-color="#00CC97">Brand strategy</span>
-                                 </p>
-                                 <p data-tp-throwable-el="">
-                                    <span class="tp-services-capsule-item" data-bg-color="#FFDB59"
-                                       data-text-color="#121212">Consulting</span>
-                                 </p>
-                                 <p data-tp-throwable-el="">
-                                    <span class="tp-services-capsule-item" data-bg-color="#00CC97">Brand strategy</span>
-                                 </p>
-                                 <p data-tp-throwable-el="">
-                                    <span class="tp-services-capsule-item" data-bg-color="#19B3F1">UI/UX Design</span>
-                                 </p>
-                                 <p data-tp-throwable-el="">
-                                    <span class="tp-services-capsule-item" data-bg-color="#FF759C">Design Audit</span>
-                                 </p>
-                                 <p data-tp-throwable-el="">
-                                    <span class="tp-services-capsule-item" data-bg-color="#FFDB59"
-                                       data-text-color="#121212">Testing</span>
-                                 </p>
-                                 <p data-tp-throwable-el="">
-                                    <span class="">
-                                       <img src="../src/assets/img/services/shape/services-shape-1.png" alt=""/>
-                                    </span>
-                                 </p>
-                                 <p data-tp-throwable-el="">
-                                    <span class="">
-                                       <img src="../src/assets/img/services/shape/services-shape-2.png" alt=""/>
-                                    </span>
-                                 </p>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="col-xl-6 col-lg-5">
-                           <div class="tp-services-accordion tp-accordion tp-accordion-2 mt-90 pl-70 p-relative">
-                              <span class="tp-services-accordion-border"></span>
-                              <div class="accordion" id="accordionExample">
-                                 <div class="accordion-item tp-services-accordion-item">
-                                    <h2 class="accordion-header" id="headingOne">
-                                       <button class="accordion-button collapsed" type="button"
-                                          data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
-                                          aria-controls="collapseOne">
-                                          <span>01</span>
-                                          UI/UX Design
-                                       </button>
-                                    </h2>
-                                    <div id="collapseOne" class="accordion-collapse collapse"
-                                       aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                       <div class="accordion-body">
-                                          <p>Project systematization is something I place a lot of emphasis on. My
-                                             passion Design Systems. </p>
-                                          <ul>
-                                             <li>Interface design</li>
-                                             <li>Creating design systems</li>
-                                             <li>Ui kits</li>
-                                          </ul>
-                                       </div>
-                                    </div>
-                                    <span class="accordion-item-border"></span>
-                                 </div>
-                                 <div class="accordion-item tp-services-accordion-item active">
-                                    <h2 class="accordion-header" id="headingTwo">
-                                       <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                          data-bs-target="#collapseTwo" aria-expanded="false"
-                                          aria-controls="collapseTwo">
-                                          <span>02</span>
-                                          Design Systems
-                                       </button>
-                                    </h2>
-                                    <div id="collapseTwo" class="accordion-collapse collapse show"
-                                       aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                       <div class="accordion-body">
-                                          <p>Project systematization is something I place a lot of emphasis on. My
-                                             passion Design Systems. </p>
-                                          <ul>
-                                             <li>Interface design</li>
-                                             <li>Creating design systems</li>
-                                             <li>Ui kits</li>
-                                          </ul>
-                                       </div>
-                                    </div>
-                                    <span class="accordion-item-border"></span>
-                                 </div>
-                                 <div class="accordion-item tp-services-accordion-item">
-                                    <h2 class="accordion-header" id="headingThree">
-                                       <button class="accordion-button collapsed" type="button"
-                                          data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                          aria-expanded="false" aria-controls="collapseThree">
-                                          <span>03</span>
-                                          Website Design
-                                       </button>
-                                    </h2>
-                                    <div id="collapseThree" class="accordion-collapse collapse"
-                                       aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                       <div class="accordion-body">
-                                          <p>Project systematization is something I place a lot of emphasis on. My
-                                             passion Design Systems. </p>
-                                          <ul>
-                                             <li>Interface design</li>
-                                             <li>Creating design systems</li>
-                                             <li>Ui kits</li>
-                                          </ul>
-                                       </div>
-                                    </div>
-                                    <span class="accordion-item-border"></span>
-                                 </div>
-                                 <div class="accordion-item tp-services-accordion-item">
-                                    <h2 class="accordion-header" id="headingFour">
-                                       <button class="accordion-button collapsed" type="button"
-                                          data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
-                                          aria-controls="collapseFour">
-                                          <span>04</span>
-                                          Branding
-                                       </button>
-                                    </h2>
-                                    <div id="collapseFour" class="accordion-collapse collapse"
-                                       aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                       <div class="accordion-body">
-                                          <p>Project systematization is something I place a lot of emphasis on. My
-                                             passion Design Systems. </p>
-                                          <ul>
-                                             <li>Interface design</li>
-                                             <li>Creating design systems</li>
-                                             <li>Ui kits</li>
-                                          </ul>
-                                       </div>
-                                    </div>
-                                    <span class="accordion-item-border"></span>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
+            <div className="tp-services-bottom-text tp-services-bg-text">
+              <p>Services</p>
+            </div>
+            <div className="row gx-0">
+              <div className="col-xl-6 col-lg-7">
+                <div
+                  className="tp-services-wrapper tp-services-capsule-wrapper p-relative pt-100 pr-70"
+                  data-tp-throwable-scene="true"
+                >
+                  <div className="tp-section-title-wrapper tp_text_anim mb-170">
+                    <div className="tp-section-title-inner p-relative">
+                      <span className="tp-section-subtitle">Services</span>
+                      <h3 className="tp-section-title tp_title_anim">
+                        Solution <br /> we provide.
+                      </h3>
+                    </div>
+                    <p>
+                      The combination of my passion for design, code & interaction web design world.
+                    </p>
                   </div>
-               </div>
-            </section>
-        </>
-    );
-}
+                  <div className="tp-services-capsule-item-wrapper">
+                    {[
+                      { text: "Frontend", bgColor: "#00CC97" },
+                      { text: "Prototyping", bgColor: "#FF759C" },
+                      { text: "Design solutions", bgColor: "#FFDB59", textColor: "#121212" },
+                      { text: "Consulting", bgColor: "#FFDB59", textColor: "#121212" },
+                      { text: "Brand strategy", bgColor: "#00CC97" },
+                      { text: "UI/UX Design", bgColor: "#19B3F1" },
+                      { text: "Design Audit", bgColor: "#FF759C" },
+                      { text: "Testing", bgColor: "#FFDB59", textColor: "#121212" }
+                    ].map((item, index) => (
+                      <p key={index} data-tp-throwable-el="">
+                        <span
+                          className="tp-services-capsule-item"
+                          style={{ backgroundColor: item.bgColor, color: item.textColor || "#fff" }}
+                        >
+                          {item.text}
+                        </span>
+                      </p>
+                    ))}
+                    <p data-tp-throwable-el="">
+                      <span>
+                        <img src="/assets/img/services/shape/services-shape-1.png" alt="shape 1" />
+                      </span>
+                    </p>
+                    <p data-tp-throwable-el="">
+                      <span>
+                        <img src="/assets/img/services/shape/services-shape-2.png" alt="shape 2" />
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-xl-6 col-lg-5">
+                <div className="tp-services-accordion tp-accordion tp-accordion-2 mt-90 pl-70 p-relative">
+                  <span className="tp-services-accordion-border"></span>
+                  <div className="accordion" id="accordionExample">
+                    {[
+                      { id: "One", title: "UI/UX Design" },
+                      { id: "Two", title: "Design Systems", active: true },
+                      { id: "Three", title: "Website Design" },
+                      { id: "Four", title: "Branding" }
+                    ].map((item, index) => (
+                      <div
+                        key={index}
+                        className={`accordion-item tp-services-accordion-item ${item.active ? "active" : ""}`}
+                      >
+                        <h2 className="accordion-header" id={`heading${item.id}`}>
+                          <button
+                            className={`accordion-button ${!item.active ? "collapsed" : ""}`}
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target={`#collapse${item.id}`}
+                            aria-expanded={item.active ? "true" : "false"}
+                            aria-controls={`collapse${item.id}`}
+                          >
+                            <span>{`0${index + 1}`}</span>
+                            {item.title}
+                          </button>
+                        </h2>
+                        <div
+                          id={`collapse${item.id}`}
+                          className={`accordion-collapse collapse ${item.active ? "show" : ""}`}
+                          aria-labelledby={`heading${item.id}`}
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div className="accordion-body">
+                            <p>
+                              Project systematization is something I place a lot of emphasis on. My passion Design
+                              Systems.
+                            </p>
+                            <ul>
+                              <li>Interface design</li>
+                              <li>Creating design systems</li>
+                              <li>UI kits</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <span className="accordion-item-border"></span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+};
 
 export default Service;
