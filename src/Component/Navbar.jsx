@@ -15,12 +15,12 @@ const Navbar = () => {
          <div class="row align-items-center">
             <div class="col-xl-2 col-lg-2 col-md-5 col-6">
                <div class="logo">
-                  <a class="logo-white" href="index.html">
+                  {/* <a class="logo-white" href="index.html">
                      <img data-width="115" src="img/logo/logo.png" alt=""/>
                   </a>
                   <a class="logo-black" href="index.html">
                      <img data-width="115" src="img/logo/logo-black.png" alt=""/>
-                  </a>
+                  </a> */}
                </div>
             </div>
             <div class="col-xl-6 col-lg-7 d-none d-lg-block">
