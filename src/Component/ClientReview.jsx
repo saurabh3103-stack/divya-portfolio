@@ -27,7 +27,7 @@ const ClientReview = () => {
                                     <div class="tp-testimonial-item theme-bg-2"
                                        data-background="img/testimonial/bg-distort.png">
                                        <div class="tp-testimonial-quote">
-                                          <img src="../src/img/testimonial/quote.svg" alt=""/>
+                                          <img src="../img/testimonial/quote.svg" alt=""/>
                                        </div>
                                        <div class="tp-testimonial-item-top d-flex align-items-center">
                                           <div class="tp-testimonial-rating">
@@ -86,7 +86,7 @@ const ClientReview = () => {
                                     <div class="tp-testimonial-item theme-bg-2"
                                        data-background="img/testimonial/bg-distort.png">
                                        <div class="tp-testimonial-quote">
-                                          <img src="../src/img/testimonial/quote.svg" alt=""/>
+                                          <img src="../img/testimonial/quote.svg" alt=""/>
                                        </div>
                                        <div class="tp-testimonial-item-top d-flex align-items-center">
                                           <div class="tp-testimonial-rating">
@@ -145,7 +145,7 @@ const ClientReview = () => {
                                     <div class="tp-testimonial-item theme-bg-2"
                                        data-background="img/testimonial/bg-distort.png">
                                        <div class="tp-testimonial-quote">
-                                          <img src="../src/img/testimonial/quote.svg" alt=""/>
+                                          <img src="../img/testimonial/quote.svg" alt=""/>
                                        </div>
                                        <div class="tp-testimonial-item-top d-flex align-items-center">
                                           <div class="tp-testimonial-rating">
@@ -204,7 +204,7 @@ const ClientReview = () => {
                                     <div class="tp-testimonial-item theme-bg-2"
                                        data-background="img/testimonial/bg-distort.png">
                                        <div class="tp-testimonial-quote">
-                                          <img src="../src/img/testimonial/quote.svg" alt=""/>
+                                          <img src="../img/testimonial/quote.svg" alt=""/>
                                        </div>
                                        <div class="tp-testimonial-item-top d-flex align-items-center">
                                           <div class="tp-testimonial-rating">
@@ -268,7 +268,7 @@ const ClientReview = () => {
                                        <div
                                           class="tp-testimonial-user-item d-flex justify-content-center align-items-center">
                                           <div class="tp-testimonial-user-thumb">
-                                             <img src="../src/img/users/user-1.jpg" alt=""/>
+                                             <img src="../img/users/user-1.jpg" alt=""/>
                                           </div>
                                           <div class="tp-testimonial-user-content">
                                              <h3 class="tp-testimonial-user-title">Rudra Ghosh</h3>
@@ -282,7 +282,7 @@ const ClientReview = () => {
                                        <div
                                           class="tp-testimonial-user-item d-flex justify-content-center align-items-center">
                                           <div class="tp-testimonial-user-thumb">
-                                             <img src="../src/img/users/avata-1.png" alt=""/>
+                                             <img src="../img/users/avata-1.png" alt=""/>
                                           </div>
                                           <div class="tp-testimonial-user-content">
                                              <h3 class="tp-testimonial-user-title">Albert Flores</h3>
@@ -296,7 +296,7 @@ const ClientReview = () => {
                                        <div
                                           class="tp-testimonial-user-item d-flex justify-content-center align-items-center">
                                           <div class="tp-testimonial-user-thumb">
-                                             <img src="../src/img/users/avata-2.png" alt=""/>
+                                             <img src="../img/users/avata-2.png" alt=""/>
                                           </div>
                                           <div class="tp-testimonial-user-content">
                                              <h3 class="tp-testimonial-user-title">Robert Henricks</h3>
@@ -310,7 +310,7 @@ const ClientReview = () => {
                                        <div
                                           class="tp-testimonial-user-item d-flex justify-content-center align-items-center">
                                           <div class="tp-testimonial-user-thumb">
-                                             <img src="../src/img/users/avata-3.png" alt=""/>
+                                             <img src="../img/users/avata-3.png" alt=""/>
                                           </div>
                                           <div class="tp-testimonial-user-content">
                                              <h3 class="tp-testimonial-user-title">Farhan Firoz</h3>

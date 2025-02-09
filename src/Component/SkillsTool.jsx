@@ -82,7 +82,7 @@ const SkillsTool = () => {
                             <div className="tp-skill-icon">
                               <span>
                                 <img
-                                  src="../src/img/skill/angular.png"
+                                  src="../img/skill/angular.png"
                                   alt=""
                                 />
                               </span>
@@ -102,7 +102,7 @@ const SkillsTool = () => {
                             <div className="tp-skill-icon">
                               <span>
                                 <img
-                                  src="../src/img/skill/wp.png"
+                                  src="../img/skill/wp.png"
                                   alt=""
                                 />
                               </span>
@@ -122,7 +122,7 @@ const SkillsTool = () => {
                             <div className="tp-skill-icon">
                               <span>
                                 <img
-                                  src="../src/img/skill/nodejs.png"
+                                  src="../img/skill/nodejs.png"
                                   alt=""
                                 />
                               </span>
@@ -142,7 +142,7 @@ const SkillsTool = () => {
                             <div className="tp-skill-icon">
                               <span>
                                 <img
-                                  src="../src/img/skill/html.png"
+                                  src="../img/skill/html.png"
                                   alt=""
                                 />
                               </span>
@@ -162,7 +162,7 @@ const SkillsTool = () => {
                             <div className="tp-skill-icon">
                               <span>
                                 <img
-                                  src="../src/img/skill/webflow.png"
+                                  src="../img/skill/webflow.png"
                                   alt=""
                                 />
                               </span>
@@ -182,7 +182,7 @@ const SkillsTool = () => {
                             <div className="tp-skill-icon">
                               <span>
                                 <img
-                                  src="../src/img/skill/vue.png"
+                                  src="../img/skill/vue.png"
                                   alt=""
                                 />
                               </span>
@@ -214,7 +214,7 @@ const SkillsTool = () => {
                             <div className="tp-skill-icon">
                               <span>
                                 <img
-                                  src="../src/img/skill/figma.png"
+                                  src="../img/skill/figma.png"
                                   alt=""
                                 />
                               </span>
@@ -234,7 +234,7 @@ const SkillsTool = () => {
                             <div className="tp-skill-icon">
                               <span>
                                 <img
-                                  src="../src/img/skill/sketch.png"
+                                  src="../img/skill/sketch.png"
                                   alt=""
                                 />
                               </span>
@@ -254,7 +254,7 @@ const SkillsTool = () => {
                             <div className="tp-skill-icon">
                               <span>
                                 <img
-                                  src="../src/img/skill/photoshop.png"
+                                  src="../img/skill/photoshop.png"
                                   alt=""
                                 />
                               </span>
@@ -274,7 +274,7 @@ const SkillsTool = () => {
                             <div className="tp-skill-icon">
                               <span>
                                 <img
-                                  src="../src/img/skill/xd.png"
+                                  src="../img/skill/xd.png"
                                   alt=""
                                 />
                               </span>
@@ -294,7 +294,7 @@ const SkillsTool = () => {
                             <div className="tp-skill-icon">
                               <span>
                                 <img
-                                  src="../src/img/skill/in.png"
+                                  src="../img/skill/in.png"
                                   alt=""
                                 />
                               </span>
@@ -314,7 +314,7 @@ const SkillsTool = () => {
                             <div className="tp-skill-icon">
                               <span>
                                 <img
-                                  src="../src/img/skill/illustrator.png"
+                                  src="../img/skill/illustrator.png"
                                   alt=""
                                 />
                               </span>

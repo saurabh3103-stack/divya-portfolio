@@ -26,7 +26,7 @@ const LatestProject = () => {
                                        <div class="tp-portfolio-thumb-img include-bg d-none"
                                           data-background="img/portfolio/portfolio-2.jpg"></div>
                                        <div class="tp-portfolio-thumb-img ">
-                                          <img data-speed="0.85" src="../src/img/portfolio/portfolio-2.jpg" alt=""/>
+                                          <img data-speed="0.85" src="../img/portfolio/portfolio-2.jpg" alt=""/>
                                        </div>
                                     </div>
                                     <div class="tp-portfolio-content">
@@ -86,7 +86,7 @@ const LatestProject = () => {
                                        data-background="img/portfolio/portfolio-3.jpg"></div>
 
                                     <div class="tp-portfolio-thumb-img">
-                                       <img data-speed="0.85" src="../src/img/portfolio/portfolio-3.jpg" alt=""/>
+                                       <img data-speed="0.85" src="../img/portfolio/portfolio-3.jpg" alt=""/>
                                     </div>
                                  </div>
                                  <div class="tp-portfolio-content">
@@ -117,7 +117,7 @@ const LatestProject = () => {
                                     <div class="tp-portfolio-thumb-img include-bg d-none"
                                        data-background="img/portfolio/portfolio-1.jpg"></div>
                                     <div class="tp-portfolio-thumb-img">
-                                       <img data-speed="0.85" src="../src/img/portfolio/portfolio-1.jpg" alt=""/>
+                                       <img data-speed="0.85" src="../img/portfolio/portfolio-1.jpg" alt=""/>
                                     </div>
                                  </div>
                                  <div class="tp-portfolio-content">

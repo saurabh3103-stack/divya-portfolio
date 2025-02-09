@@ -63,7 +63,7 @@ const MainSlider = () => {
                      <div class="col-xl-7 col-lg-7 col-md-12">
                         <div class="tp-hero-left-wrapper">
                            <div class="tp-hero-content tp_text_anim p-relative z-index-1">
-                              <span>Hello There! <img src="../src/img/hero/hero-hand.png" alt=""/></span>
+                              <span>Hello There! <img src="../img/hero/hero-hand.png" alt=""/></span>
                               <h3 class="tp-hero-title cd-headline clip tp_title_anim">
                                  I am Divya <br/>
                                  <span class="cd-words-wrapper">
@@ -108,14 +108,14 @@ const MainSlider = () => {
                         <div class="tp-hero-thumb-wrapper text-center text-lg-end p-relative z-index-1">
                            <div class="tp-hero-thumb-shape">
                               <img class="tp-hero-thumb-shape-1" data-speed="1.4"
-                                 src="../src/img/hero/shape/hero-shape-1.png" alt=""/>
+                                 src="../img/hero/shape/hero-shape-1.png" alt=""/>
                                 
                               <img class="tp-hero-thumb-shape-2 d-none d-xl-block" data-speed="1.2"
-                                 src="../src/img/hero/shape/hero-shape-2.png" alt=""/>
+                                 src="../img/hero/shape/hero-shape-2.png" alt=""/>
                               <span class="tp-hero-thumb-shape-3"></span>
                            </div>
                            <div class="tp-hero-thumb">
-                              <img src="../src/img/hero/hero-img.png" alt=""/>
+                              <img src="../img/hero/hero-img.png" alt=""/>
                            </div>
                         </div>
                      </div>

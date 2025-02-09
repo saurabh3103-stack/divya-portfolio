@@ -32,27 +32,27 @@ const BrandSection = () => {
                 >
                   <SwiperSlide className="tp-brand-item">
                     <a href="#">
-                      <img src="../src/img/brand/logo_01.png" alt="Brand 1" />
+                      <img src="../img/brand/logo_01.png" alt="Brand 1" />
                     </a>
                   </SwiperSlide>
                   <SwiperSlide className="tp-brand-item">
                     <a href="#">
-                      <img src="../src/img/brand/logo_02.png" alt="Brand 2" />
+                      <img src="../img/brand/logo_02.png" alt="Brand 2" />
                     </a>
                   </SwiperSlide>
                   <SwiperSlide className="tp-brand-item">
                     <a href="#">
-                      <img src="../src/img/brand/logo_03.png" alt="Brand 3" />
+                      <img src="../img/brand/logo_03.png" alt="Brand 3" />
                     </a>
                   </SwiperSlide>
                   <SwiperSlide className="tp-brand-item">
                     <a href="#">
-                      <img src="../src/img/brand/logo_04.png" alt="Brand 4" />
+                      <img src="../img/brand/logo_04.png" alt="Brand 4" />
                     </a>
                   </SwiperSlide>
                   <SwiperSlide className="tp-brand-item">
                     <a href="#">
-                      <img src="../src/img/brand/logo_05.png" alt="Brand 5" />
+                      <img src="../img/brand/logo_05.png" alt="Brand 5" />
                     </a>
                   </SwiperSlide>
                 </Swiper>

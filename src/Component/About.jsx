@@ -20,7 +20,7 @@ const About = () => {
                                  <div class="tp-about-thumb p-relative z-index-1">
                                     <div class="tp-about-thumb-bg-shape include-bg"
                                        data-background="img/about/shape/about-shape-1.png"></div>
-                                    <img src="../src/img/about/about-1.png" alt=""/>
+                                    <img src="../img/about/about-1.png" alt=""/>
                                  </div>
                               </div>
                            </div>
@@ -30,7 +30,7 @@ const About = () => {
                               <div class="tp-about-award d-inline-block">
                                  <div class="tp-about-award-icon d-inline-block mr-15">
                                     <span>
-                                       <img src="../src/img/about/award-icon.svg" alt=""/>
+                                       <img src="../img/about/award-icon.svg" alt=""/>
                                     </span>
                                  </div>
                                  <div class="tp-about-award-content d-inline-block">
