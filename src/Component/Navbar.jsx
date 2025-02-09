@@ -16,10 +16,10 @@ const Navbar = () => {
             <div class="col-xl-2 col-lg-2 col-md-5 col-6">
                <div class="logo">
                   <a class="logo-white" href="index.html">
-                     <img data-width="115" src="assets/img/logo/logo.png" alt=""/>
+                     <img data-width="115" src="img/logo/logo.png" alt=""/>
                   </a>
                   <a class="logo-black" href="index.html">
-                     <img data-width="115" src="assets/img/logo/logo-black.png" alt=""/>
+                     <img data-width="115" src="img/logo/logo-black.png" alt=""/>
                   </a>
                </div>
             </div>
@@ -48,7 +48,7 @@ const Navbar = () => {
             <div class="col-xl-4 col-lg-3 col-md-7 col-6">
                <div class="tp-header-right d-flex align-items-center justify-content-end">
                   <div class="tp-header-cv ml-10 d-none d-md-block">
-                     <a class="tp-header-cv-btn" href="assets/img/cv/mycv.docx">
+                     <a class="tp-header-cv-btn" href="img/cv/mycv.docx">
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                            xmlns="http://www.w3.org/2000/svg">
                            <path d="M1 8C1 11.866 4.13401 15 8 15C11.866 15 15 11.866 15 8" stroke="currentColor"
@@ -81,10 +81,10 @@ const Navbar = () => {
             <div class="col-xl-2 col-lg-2 col-md-5 col-6">
                <div class="logo">
                   <a class="logo-white" href="index.html">
-                     <img data-width="115" src="assets/img/logo/logo.png" alt=""/>
+                     <img data-width="115" src="img/logo/logo.png" alt=""/>
                   </a>
                   <a class="logo-black" href="index.html">
-                     <img data-width="115" src="assets/img/logo/logo-black.png" alt=""/>
+                     <img data-width="115" src="img/logo/logo-black.png" alt=""/>
                   </a>
                </div>
             </div>
@@ -98,7 +98,7 @@ const Navbar = () => {
                               <div class="row gx-6 row-cols-1 row-cols-md-2 row-cols-lg-4">
                                  <div class="col homemenu">
                                     <div class="homemenu-thumb mb-15">
-                                       <a href="index.html"><img src="assets/img/menu/home-1.jpg" alt=""/></a>
+                                       <a href="index.html"><img src="img/menu/home-1.jpg" alt=""/></a>
                                     </div>
                                     <div class="homemenu-content text-center">
                                        <h4 class="homemenu-title">
@@ -108,7 +108,7 @@ const Navbar = () => {
                                  </div>
                                  <div class="col homemenu">
                                     <div class="homemenu-thumb mb-15">
-                                       <a href="index-5.html"><img src="assets/img/menu/home-5.jpg" alt=""/></a>
+                                       <a href="index-5.html"><img src="img/menu/home-5.jpg" alt=""/></a>
                                     </div>
                                     <div class="homemenu-content text-center">
                                        <h4 class="homemenu-title">
@@ -118,7 +118,7 @@ const Navbar = () => {
                                  </div>
                                  <div class="col homemenu">
                                     <div class="homemenu-thumb mb-15">
-                                       <a href="index-4.html"><img src="assets/img/menu/home-4.jpg" alt=""/></a>
+                                       <a href="index-4.html"><img src="img/menu/home-4.jpg" alt=""/></a>
                                     </div>
                                     <div class="homemenu-content text-center">
                                        <h4 class="homemenu-title">
@@ -128,7 +128,7 @@ const Navbar = () => {
                                  </div>
                                  <div class="col homemenu">
                                     <div class="homemenu-thumb mb-15">
-                                       <a href="index-2.html"><img src="assets/img/menu/home-2.jpg" alt=""/></a>
+                                       <a href="index-2.html"><img src="img/menu/home-2.jpg" alt=""/></a>
                                     </div>
                                     <div class="homemenu-content text-center">
                                        <h4 class="homemenu-title">
@@ -138,7 +138,7 @@ const Navbar = () => {
                                  </div>
                                  <div class="col homemenu">
                                     <div class="homemenu-thumb mb-15">
-                                       <a href="index-3.html"><img src="assets/img/menu/home-3.jpg" alt=""/></a>
+                                       <a href="index-3.html"><img src="img/menu/home-3.jpg" alt=""/></a>
                                     </div>
                                     <div class="homemenu-content text-center">
                                        <h4 class="homemenu-title">
@@ -148,7 +148,7 @@ const Navbar = () => {
                                  </div>
                                  <div class="col homemenu">
                                     <div class="homemenu-thumb mb-15">
-                                       <a href="home-6-slider.html"><img src="assets/img/menu/home-8.jpg" alt=""/></a>
+                                       <a href="home-6-slider.html"><img src="img/menu/home-8.jpg" alt=""/></a>
                                     </div>
                                     <div class="homemenu-content text-center">
                                        <h4 class="homemenu-title">
@@ -158,7 +158,7 @@ const Navbar = () => {
                                  </div>
                                  <div class="col homemenu">
                                     <div class="homemenu-thumb mb-15">
-                                       <a href="home-7-slider.html"><img src="assets/img/menu/home-7.jpg" alt=""/></a>
+                                       <a href="home-7-slider.html"><img src="img/menu/home-7.jpg" alt=""/></a>
                                     </div>
                                     <div class="homemenu-content text-center">
                                        <h4 class="homemenu-title">
@@ -168,7 +168,7 @@ const Navbar = () => {
                                  </div>
                                  <div class="col homemenu">
                                     <div class="homemenu-thumb mb-15">
-                                       <a href="home-8-slider.html"><img src="assets/img/menu/home-6.jpg" alt=""/></a>
+                                       <a href="home-8-slider.html"><img src="img/menu/home-6.jpg" alt=""/></a>
                                     </div>
                                     <div class="homemenu-content text-center">
                                        <h4 class="homemenu-title">
@@ -250,7 +250,7 @@ const Navbar = () => {
                      </label>
                   </div>
                   <div class="tp-header-cv ml-10 d-none d-md-block">
-                     <a class="tp-header-cv-btn" href="assets/img/cv/mycv.docx">
+                     <a class="tp-header-cv-btn" href="img/cv/mycv.docx">
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                            xmlns="http://www.w3.org/2000/svg">
                            <path d="M1 8C1 11.866 4.13401 15 8 15C11.866 15 15 11.866 15 8" stroke="currentColor"

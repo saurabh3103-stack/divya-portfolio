@@ -52,12 +52,12 @@ const Service = () => {
                     ))}
                     <p data-tp-throwable-el="">
                       <span>
-                        <img src="/assets/img/services/shape/services-shape-1.png" alt="shape 1" />
+                        <img src="/img/services/shape/services-shape-1.png" alt="shape 1" />
                       </span>
                     </p>
                     <p data-tp-throwable-el="">
                       <span>
-                        <img src="/assets/img/services/shape/services-shape-2.png" alt="shape 2" />
+                        <img src="/img/services/shape/services-shape-2.png" alt="shape 2" />
                       </span>
                     </p>
                   </div>

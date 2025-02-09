@@ -25,7 +25,7 @@ function App() {
       <div
         id="smooth-wrapper"
         className="tp-page-wrapper theme-bg"
-        style={{ backgroundImage: "url('../src/assets/img/bg/distort-bg.png')" }} // Corrected background
+        style={{ backgroundImage: "url('../src/img/bg/distort-bg.png')" }} // Corrected background
       >
         <div id="smooth-content">
           <main>

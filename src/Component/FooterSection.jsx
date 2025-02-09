@@ -5,7 +5,7 @@ const FooterSection = () => {
         <>
              <footer>
 
-<div class="tp-footer-bg tp-footer-bg-light p-relative fix z-index-1 theme-bg-2" data-background="assets/img/skill/bg-distort.png">
+<div class="tp-footer-bg tp-footer-bg-light p-relative fix z-index-1 theme-bg-2" data-background="img/skill/bg-distort.png">
    <div class="tp-footer-circle-1">
       <span></span>
    </div>
