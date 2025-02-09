@@ -36,11 +36,11 @@ const Navbar = () => {
                         <li className="p-static">
                           <a href="/">Home</a>
                         </li>
-                        <li><a href="about-me.html">About Me</a></li>
-                        <li><a href="service.html">Services</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="/">About Me</a></li>
+                        <li><a href="/">Services</a></li>
+                        <li><a href="/">Portfolio</a></li>
+                        <li><a href="/">Blog</a></li>
+                        <li><a href="/">Contact</a></li>
                       </ul>
                     </nav>
                   </div>
@@ -70,17 +70,17 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="mobile-menu-overlay">
-          <div className="mobile-menu">
+        <div className="mobile-menu-overlay" onClick={closeMobileMenu}>
+          <div className="mobile-menu" onClick={(e) => e.stopPropagation()}>
             <button className="close-btn" onClick={closeMobileMenu}>×</button>
             <nav>
               <ul>
                 <li><a href="/" onClick={closeMobileMenu}>Home</a></li>
-                <li><a href="about-me.html" onClick={closeMobileMenu}>About Me</a></li>
-                <li><a href="service.html" onClick={closeMobileMenu}>Services</a></li>
-                <li><a href="portfolio.html" onClick={closeMobileMenu}>Portfolio</a></li>
-                <li><a href="blog.html" onClick={closeMobileMenu}>Blog</a></li>
-                <li><a href="contact.html" onClick={closeMobileMenu}>Contact</a></li>
+                <li><a href="/" onClick={closeMobileMenu}>About Me</a></li>
+                <li><a href="/" onClick={closeMobileMenu}>Services</a></li>
+                <li><a href="/" onClick={closeMobileMenu}>Portfolio</a></li>
+                <li><a href="/" onClick={closeMobileMenu}>Blog</a></li>
+                <li><a href="/" onClick={closeMobileMenu}>Contact</a></li>
               </ul>
             </nav>
           </div>
@@ -98,18 +98,16 @@ const Navbar = () => {
           background: rgba(0, 0, 0, 0.8);
           z-index: 1000;
           display: flex;
-          justify-content: center;
-          align-items: center;
+          justify-content: flex-end; /* Align menu to the right */
         }
 
         .mobile-menu {
           background: white;
+          width: 300px;
+          height: 100%;
           padding: 20px;
-          border-radius: 10px;
-          width: 90%;
-          max-width: 300px;
+          box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
           position: relative;
-          z-index: 1001; /* Ensure menu is above overlay */
         }
 
         .close-btn {
@@ -121,13 +119,13 @@ const Navbar = () => {
           font-size: 24px;
           cursor: pointer;
           color: #333;
-          z-index: 1002; /* Ensure close button is above menu */
         }
 
         .mobile-menu nav ul {
           list-style: none;
           padding: 0;
           margin: 0;
+          margin-top: 40px; /* Space for close button */
         }
 
         .mobile-menu nav ul li {
