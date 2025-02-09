@@ -38,3 +38,49 @@
 .tp-skill-tab .nav-tabs{
   border-radius:10px;
 }
+button.tp-hamburger-btn.tp-hamburger-btn-white.tp-menu-bar.tp-offcanvas-open-btn-2{
+  background: none;
+  border: none;
+}
+button.tp-hamburger-btn.tp-hamburger-btn-white.tp-menu-bar.tp-offcanvas-open-btn-2:hover{
+  border: none;
+}
+.tp-header-area.tp-header-mob-space.tp-header-transparent.p-relative{
+  border-bottom:1px solid #c1c1c1
+}
+
+
+
+.tp-mobile-menu {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  transition: left 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+.tp-mobile-menu.open {
+  left: 0;
+}
+
+.tp-mobile-menu-content {
+  padding: 20px;
+}
+
+.tp-mobile-menu-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tp-mobile-menu-content ul li {
+  margin-bottom: 15px;
+}
+
+.tp-mobile-menu-content ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
