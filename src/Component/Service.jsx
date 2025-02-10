@@ -1,7 +1,22 @@
-import React from "react";
+import { useRef, useEffect } from "react";
 // import "../src/assets/css/style.css"; // Ensure correct CSS import if needed
+import gsap from "gsap";
 
 const Service = () => {
+  const capsuleRefs = useRef([]);
+
+  useEffect(() => {
+    capsuleRefs.current.forEach((el, index) => {
+      gsap.from(el, {
+        y: -100,
+        opacity: 0,
+        duration: 1,
+        delay: index * 0.1,
+        ease: "bounce.out",
+      });
+    });
+  }, []);
+
   return (
     <>
       <section className="tp-services-area tp-sv tp-services-bg-text-animation fix">
@@ -31,36 +46,31 @@ const Service = () => {
                     </p>
                   </div>
                   <div className="tp-services-capsule-item-wrapper">
-                    {[
-                      { text: "Frontend", bgColor: "#00CC97" },
-                      { text: "Prototyping", bgColor: "#FF759C" },
-                      { text: "Design solutions", bgColor: "#FFDB59", textColor: "#121212" },
-                      { text: "Consulting", bgColor: "#FFDB59", textColor: "#121212" },
-                      { text: "Brand strategy", bgColor: "#00CC97" },
-                      { text: "UI/UX Design", bgColor: "#19B3F1" },
-                      { text: "Design Audit", bgColor: "#FF759C" },
-                      { text: "Testing", bgColor: "#FFDB59", textColor: "#121212" }
-                    ].map((item, index) => (
-                      <p key={index} data-tp-throwable-el="">
-                        <span
-                          className="tp-services-capsule-item"
-                          style={{ backgroundColor: item.bgColor, color: item.textColor || "#fff" }}
-                        >
-                          {item.text}
-                        </span>
-                      </p>
-                    ))}
-                    <p data-tp-throwable-el="">
-                      <span>
-                        <img src="/img/services/shape/services-shape-1.png" alt="shape 1" />
+                  {[
+                    { text: "Frontend", bgColor: "#00CC97" },
+                    { text: "Prototyping", bgColor: "#FF759C" },
+                    { text: "Design solutions", bgColor: "#FFDB59", textColor: "#121212" },
+                    { text: "Consulting", bgColor: "#FFDB59", textColor: "#121212" },
+                    { text: "Brand strategy", bgColor: "#00CC97" },
+                    { text: "UI/UX Design", bgColor: "#19B3F1" },
+                    { text: "Design Audit", bgColor: "#FF759C" },
+                    { text: "Testing", bgColor: "#FFDB59", textColor: "#121212" }
+                  ].map((item, index) => (
+                    <p
+                      key={index}
+                      ref={(el) => (capsuleRefs.current[index] = el)}
+                      data-tp-throwable-el=""
+                    >
+                      <span
+                        className="tp-services-capsule-item"
+                        style={{ backgroundColor: item.bgColor, color: item.textColor || "#fff" }}
+                      >
+                        {item.text}
                       </span>
                     </p>
-                    <p data-tp-throwable-el="">
-                      <span>
-                        <img src="/img/services/shape/services-shape-2.png" alt="shape 2" />
-                      </span>
-                    </p>
-                  </div>
+                    
+                  ))}
+                </div>
                 </div>
               </div>
               <div className="col-xl-6 col-lg-5">

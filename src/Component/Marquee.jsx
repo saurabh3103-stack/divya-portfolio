@@ -7,9 +7,9 @@ const Marquee = () => {
         <div class="tp-marquee-area z-index-5">
                <div class="tp-marquee-wrapper">
                   <div class="tp-marquee-slider fix">
-                    {/* <marquee> */}
-                        <div class="tp-marquee-slider-active d-flex align-items-center ">
-                            <div class="tp-marquee-item">
+                    <marquee class="tp-marquee-slider-active">
+                        <div class=" d-flex align-items-center ">
+                            <div class="tp-marquee-item" style={{paddingTop:"1.5rem"}}>
                                 <p>Selected Work (2024) <img src="../img/marquee/smile.svg" alt=""/></p>
                             </div>
                             <div class="tp-marquee-item">
@@ -22,7 +22,7 @@ const Marquee = () => {
                             <p>Diego Template <img src="../img/marquee/stroke.svg" alt=""/></p>
                             </div>
                         </div>
-                    {/* </marquee> */}
+                    </marquee>
                   </div>
                </div>
             </div>
